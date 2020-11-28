@@ -1,5 +1,6 @@
 body {
   background-color: #f1f1f1;
+  /* background-image: url("E:/Gautam/img/logo.jpg"); */
   padding: 20px;
   font-family: Arial;
 }
@@ -52,7 +53,6 @@ h3 {
   color: #5f7386;
   position: relative;
   font-weight: bold;
-  padding-bottom: 0px;
   margin-bottom: 10px;
 }
 
@@ -138,6 +138,7 @@ p {
   flex-direction: column;
 }
 
+
 img {
   border-radius: 5px 5px 0 0;
 }
@@ -173,6 +174,49 @@ li:before {
 
 li {
   margin: 10px;
+}
+
+/* Styling for container class tag*/
+.container2 {
+  border-radius: 10px;
+  /*This property defines the radius of the element's corners. */
+  background-color: #f2f2f2;
+  /*This property sets the background color of an element. */
+  padding: 20px;
+  /*This properties are used to generate space around an element's content, inside of any defined borders. */
+}
+
+/* Styling for input & textarea tag*/
+input[type=text], input[type=email], input[type=phone], textarea {
+  width: 100%; 
+  padding: 12px; 
+  /*This properties are used to generate space around an element's content, inside of any defined borders. */
+  border: 1px solid #ccc; 
+  /*This properties allow you to specify the style, width, and color of an element's border. */
+  border-radius: 4px; 
+  /*This property defines the radius of the element's corners. */
+  box-sizing: border-box;
+  /*This property allows us to include the padding and border in an element's total width and height. */
+  margin-top: 6px;
+  /*This property sets the top margin of an element. */
+  margin-bottom: 16px; 
+  /*This property sets the bottom margin of an element. */
+  resize: vertical;
+  /*This property defines if (and how) an element is resizable by the user. */
+}
+
+/* Styling for class btn2 tag*/
+.btn2{
+  background-color: forestgreen;
+  /*This property sets the background color of an element. */
+  color: white;
+  /*This property sets the color of an element. */
+  padding: 12px 20px;
+  /*This properties are used to generate space around an element's content, inside of any defined borders. */
+  border: none;
+  /*This properties allow you to specify the style, width, and color of an element's border. */
+  border-radius: 5px;
+  /*This property defines the radius of the element's corners. */
 }
 
 footer {
